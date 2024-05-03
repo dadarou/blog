@@ -1,0 +1,21 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Dadablog"
+theme = "hugo-theme-stack"
+
+[Params]
+descritpion = "My blog"
+mainSections = ["posts"]
+favicon = "/favicon.ico"
+# TODO: Avatar, description, favicon, footer, social, opengraph?, ...
+
+[Params.Article]
+toc = false
+readingTime = false
+# license?
+
+[[Params.widgets.homepage]]
+type = "search"
+
+[[Params.widgets.homepage]]
+type = "tag-cloud"
